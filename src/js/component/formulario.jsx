@@ -14,7 +14,7 @@ const Formulario = ({ listaTareas, setListaTareas }) => {
   const enviarDatos = async (evento) => {
     evento.preventDefault();
     try {
-      const response = await fetch('https://playground.4geeks.com/todo/users/david_nietog6',
+      const response = await fetch('https://playground.4geeks.com/todo/todos/david_nietog6',
         {
           method: 'POST',
           body: JSON.stringify({
