@@ -28,6 +28,7 @@ const ListaTarea = ({ listaTareas, setListaTareas }) => {
                     })
                     :
                     <p className="listaTareasMensaje">No hay tareas</p>
+                    
             }
         </ul>
     )
