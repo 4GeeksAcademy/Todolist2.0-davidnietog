@@ -9,7 +9,7 @@ const App = () => {
 	useEffect(() => {
 		const cargarTareas = async () => {
 			try {
-				const response = await fetch('https://playground.4geeks.com/todo/users/davidnieto_g3')
+				const response = await fetch('https://playground.4geeks.com/todo/users/david_nietog5')
 				if (!response.ok) {
 					throw new Error('Usuario no encontrado');
 				}
@@ -23,7 +23,7 @@ const App = () => {
 
 		const crearUsuario = async () => {
 			try {
-				const response = await fetch('https://playground.4geeks.com/todo/users/davidnieto_g3',
+				const response = await fetch('https://playground.4geeks.com/todo/users/david_nietog5',
 					{
 						method: 'POST',
 						headers: {
